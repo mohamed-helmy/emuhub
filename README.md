@@ -1,5 +1,11 @@
 # EmuHub
 
+![main](https://github.com/mohamed-helmy/emuhub/actions/workflows/docker-image.yml/badge.svg)
+
+
+<p align="center">
+  <img id="header" src="./images/logo.png" />
+</p>
 ## Overview
 EmuHub is an innovative tool designed to simplify the testing of Android applications by providing access to multiple emulators via web browsers. Built with Docker and NoVNC (HTML5-based VNC client), EmuHub offers developers and QA engineers a seamless platform for testing APKs across various Android device configurations.
 
@@ -62,6 +68,9 @@ services:
 docker compose up -d
 ```
 Once EmuHub is running, access it via a web browser using the URL `http://<your-server-ip>:8000`. Replace `<your-server-ip>` with the IP address of the server where EmuHub is hosted.
+<p align="center">
+  <img id="demo" src="./images/demo.gif" />
+</p>
 
 ## Contribution
 Contributions to EmuHub are welcome! If you have any suggestions, bug fixes, or new features to propose, feel free to open an issue or submit a pull request.
