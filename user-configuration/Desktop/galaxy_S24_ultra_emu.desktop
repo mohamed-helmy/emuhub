@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c 'bash /home/emuhub/emulator/mobile_emu.sh "galaxy_S24_ultra" 12 "Galaxy_S24_Ultra"'; read -p "Press Enter to close"
+Name=Galaxy S24 Ultra
+Icon=/home/emuhub/images/skin_s_24ultra.png

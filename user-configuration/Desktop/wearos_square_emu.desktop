@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c 'bash /home/emuhub/emulator/wear_emu.sh "wearos_square" 31 "wearos_square"'; read -p "Press Enter to close"
+Name=Wear OS Square
+Icon=/home/emuhub/images/wearos_square_emu.png

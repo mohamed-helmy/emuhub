@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c 'bash /home/emuhub/emulator/mobile_emu.sh "nexus_6p" 12 "nexus_6p"'; read -p "Press Enter to close"
+Name=Nexus 6P
+Icon=/home/emuhub/images/nexus_6p_emu.png

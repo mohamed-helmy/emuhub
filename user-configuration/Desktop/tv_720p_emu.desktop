@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c 'bash /home/emuhub/emulator/tv_emu.sh "tv_720p" 1 "tv_720p"'; read -p "Press Enter to close"
+Name=TV (720p)
+Icon=/home/emuhub/images/tv_720p_emu.png

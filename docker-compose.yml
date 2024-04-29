@@ -1,0 +1,20 @@
+services:
+  emulator:
+    build: .
+    privileged: true
+    scale: 1
+    environment:
+      - VNCPASS=admin
+      - emuhubPASS=admin
+      - LISTENPORT=8000
+    ports:
+      - 8000:8000
+    volumes:
+      - ./apk-demo:/home/emuhub/apk
+    logging:
+      driver: json-file
+      options:
+        max-size: 20m
+        max-file: '10'
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Pixel 3a XL">
+    <action name=""><execute>bash /home/emuhub/emulator/mobile_emu.sh "pixel_3a_xl" "pixel_3a_xl" "pixel_3a_xl"</execute></action>
+  </item>
+
+  <item label="Pixel 2 XL">
+    <action name="Execute"><execute>bash /home/emuhub/emulator/mobile_emu.sh "pixel_2_xl" 20 "pixel_2_xl"</execute></action>
+  </item>
+
+  <item label="Pixel XL">
+    <action name="Execute"><execute>bash /home/emuhub/emulator/mobile_emu.sh "pixel_xl_silver" 26 "pixel_xl_silver"</execute></action>
+  </item>
+
+  <item label="Android TV">
+    <action name="Execute"><execute>bash /home/emuhub/emulator/tv_emu.sh "tv_1080p" 0 "tv_1080p"</execute></action>
+  </item>
+  <item label="Wear OS">
+    <action name="Execute"><execute>bash /home/emuhub/emulator/wear_emu.sh "wearos_square" 31 "wearos_square"</execute></action>
+  </item>
+
+
+  <item label="Emuhub Terminal">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+
+  <item label="Web browser">
+    <action name="Execute"><execute>x-www-browser</execute></action>
+  </item>
+
+  <!-- <item label="Restart">
+    <action name="Restart" />
+  </item>
+  <item label="Exit">
+    <action name="Exit" />
+  </item> -->
+</menu>
+
+</openbox_menu>

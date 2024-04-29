@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c 'bash /home/emuhub/emulator/mobile_emu.sh "pixel_c" 25 "pixel_c"'; read -p "Press Enter to close"
+Name=Pixel C
+Icon=/home/emuhub/images/pixel_c_emu.png

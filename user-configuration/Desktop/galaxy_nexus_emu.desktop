@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c 'bash /home/emuhub/emulator/mobile_emu.sh "galaxy_nexus" 6 "galaxy_nexus"'; read -p "Press Enter to close"
+Name=Galaxy Nexus
+Icon=/home/emuhub/images/galaxy_nexus_emu.png

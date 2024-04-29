@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c 'bash /home/emuhub/emulator/mobile_emu.sh "nexus_10" 7 "nexus_10"'; read -p "Press Enter to close"
+Name=Nexus 10
+Icon=/home/emuhub/images/nexus_10_emu.png
