@@ -79,13 +79,14 @@ COPY emulator-configuration/skins /opt/android-sdk-linux/skins
 COPY emulator-configuration/emulator  /home/emuhub/emulator
 RUN chmod -R +x /home/emuhub/emulator
 RUN chmod -R +777 /home/emuhub/.config
+RUN chmod +777 /home/emuhub/.Xauthority
 COPY ./user-configuration/Desktop /home/emuhub/Desktop
 
 # Update Android SDK
-RUN /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --update && \
-    /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --install "system-images;android-34;google_apis_playstore;x86_64" && \
-    /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --install "system-images;android-34;google-tv;x86" && \
-    /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --install "system-images;android-33;android-wear;x86_64"
+# RUN /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --update && \
+#     /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --install "system-images;android-34;google_apis_playstore;x86_64" && \
+#     /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --install "system-images;android-34;google-tv;x86" && \
+#     /opt/android-sdk-linux/cmdline-tools/tools/bin/sdkmanager --install "system-images;android-33;android-wear;x86_64"
 
 
 RUN apt-get install -y \
