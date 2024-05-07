@@ -63,8 +63,11 @@ services:
 ```
 
  Modify the configuration as per your requirements. Ensure to set appropriate values for `VNCPASS`, `emuhubPASS`, and `LISTENPORT`.
+
 **Run EmuHub Container**:
+
 		Start EmuHub using Docker Compose:
+
 ```bash
 docker compose up -d
 ```
