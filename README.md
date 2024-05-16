@@ -34,7 +34,6 @@ To use EmuHub, follow these steps:
     ```
 
 3. **Run EmuHub Container**: 
-
   Start the EmuHub container.
 
     ```bash
@@ -51,10 +50,10 @@ To use EmuHub, follow these steps:
     --log-opt max-file=10 \
     emuhub
     ```
-
+    
 4. **Access Emulators**:
  
- Open your web browser and navigate to `http://localhost:8000` to access the EmuHub interface and start testing your Android applications.
+  Open your web browser and navigate to `http://localhost:8000` to access the EmuHub interface and start testing your Android applications.
 
 ## Example Docker Compose
 ```yaml
@@ -103,4 +102,5 @@ For any questions or assistance, please contact [helmy419@gmail.com](mailto:helm
 
 ---
 
-**Note:** EmuHub is a project maintained by [Mohamed Helmy]. We strive to improve the testing experience for Android developers and welcome feedback from the community. Thank you for using EmuHub!
+**Note:** EmuHub is a project maintained by [Mohamed Helmy]. We strive to improve the testing experience for Android developers and welcome feedback from the community.
+Thank you for using EmuHub!
