@@ -33,7 +33,8 @@ To use EmuHub, follow these steps:
     docker build -t emuhub .
     ```
 
-3. **Run EmuHub Container**: Start the EmuHub container.
+3. **Run EmuHub Container**: 
+  Start the EmuHub container.
 
     ```bash
     docker run -d \
