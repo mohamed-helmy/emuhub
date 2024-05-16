@@ -37,17 +37,17 @@ To use EmuHub, follow these steps:
 
     ```bash
     docker run -d \
-  --name emulator \
-  --privileged \
-  -e VNCPASS=admin \
-  -e emuhubPASS=admin \
-  -e LISTENPORT=8000 \
-  -p 8000:8000 \
-  -v $(pwd)/apk-demo:/home/emuhub/apk \
-  --log-driver=json-file \
-  --log-opt max-size=20m \
-  --log-opt max-file=10 \
-  emuhub
+    --name emulator \
+    --privileged \
+    -e VNCPASS=admin \
+    -e emuhubPASS=admin \
+    -e LISTENPORT=8000 \
+    -p 8000:8000 \
+    -v $(pwd)/apk-demo:/home/emuhub/apk \
+    --log-driver=json-file \
+    --log-opt max-size=20m \
+    --log-opt max-file=10 \
+    emuhub
     ```
 4. **Access Emulators**: Open your web browser and navigate to `http://localhost:6080` to access the EmuHub interface and start testing your Android applications.
 ## Example Docker Compose
